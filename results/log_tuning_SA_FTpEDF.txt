@@ -1,0 +1,168 @@
+nohup: ignoring input
+# 2026-03-07 11:32:12 UTC: Initialization
+# Elitist race
+# Elitist new instances: 1
+# Elitist limit: 2
+# nbIterations: 3
+# minNbSurvival: 3
+# nbParameters: 3
+# seed: 1316259276
+# confidence level: 0.95
+# budget: 180
+# mu: 5
+# deterministic: FALSE
+
+# 2026-03-07 11:32:12 UTC: Iteration 1 of 3
+# experimentsUsed: 0
+# remainingBudget: 180
+# currentBudget: 60
+# nbConfigurations: 10
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . Alive configurations were already evaluated on this instance and nothing is discarded.
+     : All alive configurations are elite, but some need to be evaluated on this instance.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          1|         10|          1|     4.000000000|         10|00:01:27|   NA|  NA|    NA|
+|x|          2|         10|          1|     4.000000000|         20|00:01:17|+1.00|1.00|0.0000|
+|x|          3|         10|          1|     5.000000000|         30|00:00:49|+0.00|0.33|0.3000|
+|x|          4|         10|          3|     4.500000000|         40|00:00:21|-0.10|0.18|0.5000|
+|=|          5|         10|          3|     4.000000000|         50|00:00:39|-0.07|0.14|0.3900|
+|=|          6|         10|          3|     3.833333333|         60|00:00:15|-0.06|0.12|0.3200|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:           3    mean value:      3.833333333
+Description of the best-so-far configuration:
+  .ID.      Tx     Cx    Mx .PARENT.
+3    3 15.6229 0.9246 0.097       NA
+
+# 2026-03-07 11:37:01 UTC: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+       Tx     Cx     Mx
+3 15.6229 0.9246 0.0970
+5 94.3728 0.5309 0.0846
+7 71.8728 0.8684 0.0104
+# 2026-03-07 11:37:01 UTC: Iteration 2 of 3
+# experimentsUsed: 60
+# remainingBudget: 120
+# currentBudget: 60
+# nbConfigurations: 11
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . Alive configurations were already evaluated on this instance and nothing is discarded.
+     : All alive configurations are elite, but some need to be evaluated on this instance.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          7|         11|          3|     2.000000000|         11|00:00:48|   NA|  NA|    NA|
+|x|          4|         11|          3|     2.500000000|         19|00:00:22|+0.00|0.50|0.4545|
+|x|          1|         11|          3|     3.000000000|         27|00:02:10|+0.00|0.33|0.3030|
+|x|          3|         11|          3|     4.000000000|         35|00:00:51|+0.16|0.37|0.3763|
+|=|          5|         11|          3|     3.600000000|         43|00:01:03|+0.12|0.29|0.3167|
+|=|          6|         11|          3|     3.500000000|         51|00:00:19|+0.09|0.25|0.2717|
+|=|          2|         11|          3|     3.571428571|         59|00:01:28|+0.08|0.21|0.2374|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:           3    mean value:      3.571428571
+Description of the best-so-far configuration:
+  .ID.      Tx     Cx    Mx .PARENT.
+3    3 15.6229 0.9246 0.097       NA
+
+# 2026-03-07 11:44:05 UTC: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+       Tx     Cx     Mx
+3 15.6229 0.9246 0.0970
+5 94.3728 0.5309 0.0846
+7 71.8728 0.8684 0.0104
+# 2026-03-07 11:44:05 UTC: Iteration 3 of 3
+# experimentsUsed: 119
+# remainingBudget: 61
+# currentBudget: 61
+# nbConfigurations: 10
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . Alive configurations were already evaluated on this instance and nothing is discarded.
+     : All alive configurations are elite, but some need to be evaluated on this instance.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|x|          8|         10|          3|     3.000000000|         10|00:02:31|   NA|  NA|    NA|
+|x|          6|         10|          3|     3.000000000|         17|00:00:32|+1.00|1.00|0.0000|
+|x|          5|         10|          3|     2.666666667|         24|00:01:35|+1.00|1.00|0.0000|
+|x|          2|         10|          3|     3.000000000|         31|00:03:45|+1.00|1.00|0.0000|
+|=|          1|         10|          3|     3.200000000|         38|00:03:28|+1.00|1.00|0.0000|
+|=|          3|         10|          3|     3.833333333|         45|00:01:46|+0.00|0.17|0.1500|
+|=|          7|         10|          3|     3.571428571|         52|00:01:46|+0.00|0.14|0.1286|
+|=|          4|         10|          3|     3.500000000|         59|00:00:43|-0.02|0.11|0.2286|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:           3    mean value:      3.500000000
+Description of the best-so-far configuration:
+  .ID.      Tx     Cx    Mx .PARENT.
+3    3 15.6229 0.9246 0.097       NA
+
+# 2026-03-07 12:00:14 UTC: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+       Tx     Cx     Mx
+3 15.6229 0.9246 0.0970
+5 94.3728 0.5309 0.0846
+7 71.8728 0.8684 0.0104
+# 2026-03-07 12:00:14 UTC: Stopped because there is not enough budget left to race more than the minimum (3).
+# You may either increase the budget or set 'minNbSurvival' to a lower value.
+# Iteration: 4
+# nbIterations: 4
+# experimentsUsed: 178
+# timeUsed: 0
+# remainingBudget: 2
+# currentBudget: 2
+# number of elites: 3
+# nbConfigurations: 3
+# Total CPU user time: 5140.316, CPU sys time: 14.748, Wall-clock time: 1682.713
+# 2026-03-07 12:00:14 UTC: Starting post-selection:
+# Configurations selected: 3, 5.
+# Pending instances: 0, 0.
+# 2026-03-07 12:00:14 UTC: seed: 1316259276
+# Configurations: 2
+# Available experiments: 2
+# minSurvival: 1
+# Markers:
+     x No test is performed.
+     c Configurations are discarded only due to capping.
+     - The test is performed and some configurations are discarded.
+     = The test is performed but no configuration is discarded.
+     ! The test is performed and configurations could be discarded but elite configurations are preserved.
+     . Alive configurations were already evaluated on this instance and nothing is discarded.
+     : All alive configurations are elite, but some need to be evaluated on this instance.
+
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+| |   Instance|      Alive|       Best|       Mean best| Exp so far|  W time|  rho|KenW|  Qvar|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+|.|          7|          2|          3|     2.000000000|          0|00:00:00|   NA|  NA|    NA|
+|.|          3|          2|          3|     4.500000000|          0|00:00:00|+1.00|1.00|0.0000|
+|.|          4|          2|          3|     4.000000000|          0|00:00:00|+1.00|1.00|0.0000|
+|.|          6|          2|          3|     3.750000000|          0|00:00:00|+1.00|1.00|0.0000|
+|.|          2|          2|          3|     3.800000000|          0|00:00:00|+1.00|1.00|0.0000|
+|.|          1|          2|          3|     3.833333333|          0|00:00:00|+1.00|1.00|0.0000|
+|.|          8|          2|          3|     3.714285714|          0|00:00:00|+1.00|1.00|0.0000|
+|.|          5|          2|          3|     3.500000000|          0|00:00:00|+1.00|1.00|0.0000|
+|-|          9|          1|          3|     3.333333333|          2|00:00:12|   NA|  NA|    NA|
++-+-----------+-----------+-----------+----------------+-----------+--------+-----+----+------+
+Best-so-far configuration:           3    mean value:      3.333333333
+Description of the best-so-far configuration:
+  .ID.      Tx     Cx    Mx .PARENT.
+3    3 15.6229 0.9246 0.097       NA
+
+# 2026-03-07 12:00:27 UTC: Elite configurations (first number is the configuration ID; listed from best to worst according to the sum of ranks):
+       Tx     Cx    Mx
+3 15.6229 0.9246 0.097
+# Total CPU user time: 5142.341, CPU sys time: 14.833, Wall-clock time: 1695.117
